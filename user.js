@@ -823,6 +823,7 @@ user_pref("media.ffmpeg.vaapi.enabled", true);
 user_pref("media.ffvpx.enabled", false);
 user_pref("mediadatadecoder_vpx_enabled", true);
 user_pref("media.rdd-vpx.enabled", false);*/
+user_pref("gfx.webrender.all", true);
 /*** [SECTION 5000]: OPTIONAL OPSEC
    Disk avoidance, application data isolation, eyeballs...
 ***/
@@ -1164,6 +1165,10 @@ user_pref("browser.messaging-system.whatsNewPanel.enabled", false);
 /* 9004: disable search terms [FF110+]
  * [SETTING] Search>Search Bar>Use the address bar for search and navigation>Show search terms instead of URL... ***/
 user_pref("browser.urlbar.showSearchTerms.enabled", false);
+user_pref("extensions.pocket.enabled", false); // Pocket Account [FF46+]
+user_pref("extensions.screenshots.disabled", true); // [FF55+]
+user_pref("identity.fxaccounts.enabled", false); // Firefox Accounts & Sync [FF60+] [RESTART]
+user_pref("reader.parse-on-load.enabled", false); // Reader View
 
 /*** [SECTION 9999]: DEPRECATED / RENAMED ***/
 user_pref("_user.js.parrot", "9999 syntax error: the parrot's shuffled off 'is mortal coil!");
