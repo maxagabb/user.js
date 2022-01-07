@@ -818,11 +818,9 @@ user_pref("browser.link.open_newwindow", 3); // [DEFAULT: 3]
 user_pref("browser.link.open_newwindow.restriction", 0);
 /* 4520: disable WebGL (Web Graphics Library)
  * [SETUP-WEB] If you need it then override it. RFP still randomizes canvas for naive scripts ***/
-/*user_pref("webgl.disabled", false);
+/*user_pref("webgl.disabled", false);*/
 user_pref("media.ffmpeg.vaapi.enabled", true);
-user_pref("media.ffvpx.enabled", false);
-user_pref("mediadatadecoder_vpx_enabled", true);
-user_pref("media.rdd-vpx.enabled", false);*/
+user_pref("media.rdd-ffmpeg.enabled", true);
 user_pref("gfx.webrender.all", true);
 /*** [SECTION 5000]: OPTIONAL OPSEC
    Disk avoidance, application data isolation, eyeballs...
