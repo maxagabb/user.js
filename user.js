@@ -821,6 +821,7 @@ user_pref("browser.link.open_newwindow.restriction", 0);
 user_pref("webgl.disabled", false);
 user_pref("media.ffmpeg.vaapi.enabled", true);
 //user_pref("media.rdd-ffmpeg.enabled", true); //Not necessary in firefox 97
+user_pref("media.rdd-vpx.enabled", false); //Not necessary in firefox 97
 user_pref("gfx.webrender.all", true);
 user_pref("general.smoothScroll", false);
 /*** [SECTION 5000]: OPTIONAL OPSEC
@@ -1164,6 +1165,7 @@ user_pref("browser.messaging-system.whatsNewPanel.enabled", false);
 /* 9004: disable search terms [FF110+]
  * [SETTING] Search>Search Bar>Use the address bar for search and navigation>Show search terms instead of URL... ***/
 user_pref("browser.urlbar.showSearchTerms.enabled", false);
+user_pref("ui.systemUsesDarkTheme", 1); // [FF67+] [HIDDEN PREF]
 user_pref("extensions.pocket.enabled", false); // Pocket Account [FF46+]
 user_pref("extensions.screenshots.disabled", true); // [FF55+]
 user_pref("identity.fxaccounts.enabled", false); // Firefox Accounts & Sync [FF60+] [RESTART]
