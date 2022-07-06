@@ -819,10 +819,8 @@ user_pref("browser.link.open_newwindow.restriction", 0);
 /* 4520: disable WebGL (Web Graphics Library)
  * [SETUP-WEB] If you need it then override it. RFP still randomizes canvas for naive scripts ***/
 user_pref("webgl.disabled", false);
-user_pref("media.ffmpeg.vaapi.enabled", true);
-//user_pref("media.rdd-ffmpeg.enabled", true); //Not necessary in firefox 97
-user_pref("media.rdd-vpx.enabled", false); //Not necessary in firefox 97
 user_pref("gfx.webrender.all", true);
+user_pref("media.ffmpeg.vaapi.enabled", true);
 user_pref("general.smoothScroll", false);
 /*** [SECTION 5000]: OPTIONAL OPSEC
    Disk avoidance, application data isolation, eyeballs...
