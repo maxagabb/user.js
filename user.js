@@ -822,6 +822,7 @@ user_pref("webgl.disabled", false);
 user_pref("gfx.webrender.all", true);
 user_pref("media.ffmpeg.vaapi.enabled", true);
 user_pref("general.smoothScroll", false);
+user_pref("layout.frame_rate", 240);
 /*** [SECTION 5000]: OPTIONAL OPSEC
    Disk avoidance, application data isolation, eyeballs...
 ***/
